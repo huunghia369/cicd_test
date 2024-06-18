@@ -17,7 +17,7 @@
 import logging
 from pathlib import Path
 import shutil
-import subprocess
+# import subprocess  # Xóa hoặc bỏ comment nếu cần dùng
 
 import os
 import synthtool as s
@@ -31,9 +31,9 @@ protos = [
     ("api", "api"),
     ("extendedoperations", "cloud"),
     ("location", "cloud"),
-    ("logging", "google"), # for the metadata
+    ("logging", "google"),  # for the metadata
     ("logging", "cloud"),
-    ("iam", "google"), # for the metadata
+    ("iam", "google"),  # for the metadata
     ("iam", "cloud"),
     ("iamlogging", "iam"),
     ("rpc", "rpc"),
@@ -72,9 +72,7 @@ if os.path.exists("metadata/Google"):
 
 s.replace(
     "src/**/*.php",
-    r"^// Adding a class alias for backwards compatibility with the previous class name.$"
-    + "\n"
-    + r"^class_alias\(.*\);$"
-    + "\n",
-    '')
-
+    r"^// Adding a class alias for backwards compatibility with the previous class name.$\n" +
+    r"^class_alias\(.*\);$\n",
+    ''
+)
