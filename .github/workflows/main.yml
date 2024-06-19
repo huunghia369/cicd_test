@@ -34,4 +34,4 @@ jobs:
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./wp-content/uploads/simply-static/temp-files/simply-static-1-1718823261
+          publish_dir: ./wp-content/uploads/simply-static/temp-files/simply-static-1-1718827353
