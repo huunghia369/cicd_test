@@ -2484,3 +2484,7 @@
 [2024-06-19 20:03:54] [class-ss-archive-creation-job.php:170] This task is done and there are no more tasks, time to complete the job
 [2024-06-19 20:03:54] [class-ss-archive-creation-job.php:197] Completing the job
 [2024-06-19 20:03:54] [class-ss-archive-creation-job.php:324] Status message: [done] Done! Finished in 00:01:21
+[2024-06-19 20:06:16] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wordpress
+[2024-06-19 20:06:17] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wordpress
+[2024-06-19 20:07:37] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wordpress
+[2024-06-19 20:07:38] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wordpress
