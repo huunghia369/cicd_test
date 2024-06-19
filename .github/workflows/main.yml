@@ -29,9 +29,3 @@ jobs:
       - name: Run flake8
         run: |
           flake8 .
-
-      - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v4
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./wp-content/uploads/simply-static/temp-files/simply-static-1-1718823261
